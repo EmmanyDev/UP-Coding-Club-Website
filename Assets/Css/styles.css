@@ -1,0 +1,474 @@
+  /* For tablets: */
+@media only screen and (max-width:800px) {
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+
+
+
+body {
+  /*   */
+  /*  */
+  /* https://st.depositphotos.com/1007388/4010/i/950/depositphotos_40101595-stock-photo-pastel-striped-background.jpg */
+  
+  
+  background-image: url(https://echalk-slate-prod.s3.amazonaws.com/private/schools/2046/resources/37801ab1-d36f-44fe-97cd-df471716bac7?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&Expires=1812363425&response-cache-control=private%2C%20max-age%3D31536000&response-content-disposition=attachment%3Bfilename%3D%22thumb_DSCN2249_1024.jpg%22&response-content-type=image%2Fjpeg&Signature=N41t6Varam696ZLP%2F3jKH7kJgew%3D);
+  background-size: 1930px 943px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 5px outset white;
+  /*background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);*/
+  
+} 
+
+.container {
+  border: 5px outset white;
+  background-color: rgba(0, 128, 0, 0.7);
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
+
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 80px;
+  color: white;
+  transition: color 2s;
+  text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+}
+
+h1:hover {
+  color: #e3eaa7;
+}
+
+
+
+
+
+.btn {
+  margin-top: 5%;
+  padding: 80px;
+  font-size: 80px
+}
+
+
+
+/* FIX a:hover and a:active styling */
+
+
+/* Website to help with styling navbar: https://www.w3schools.com/css/css_navbar.asp */
+
+
+.id_logo {
+  float: left;
+  margin-right: 10px;
+  width: 50px;
+  /*
+  position: absolute;
+  z-index: 2; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_heading {
+  
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    margin-bottom: 20px;
+}
+
+/*
+.navbar_coollinks {
+  color: white;
+  background-color: #009900;
+  border: 1px solid gray;
+  border-radius: 5%;
+  border-bottom: 1px solid #555;
+  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  font-family: 'Just Another Hand', cursive;
+  text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+  margin-left: 2px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  float: left;
+  font-size: 30px;
+  word-spacing: 20px;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+  transition: background-color 1s, color 1s;
+}
+
+.navbar_coollinks{
+    background-color: #0066ff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar_coollinks {
+  background-color: #e3eaa7;
+  top: 2;
+}
+
+*/
+
+.navSection {
+  background-color: #333;
+    overflow: hidden;
+}
+
+.navbar_links {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  /*
+  color: white;
+  background-color: #009900;
+  border: 1px solid gray;
+  border-radius: 5%;
+  border-bottom: 1px solid #555;
+  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  font-family: 'Just Another Hand', cursive;
+  text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+  margin-left: 2px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  font-size: 30px;
+  word-spacing: 10px;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+  transition: background-color 1s, color 1s;
+  width: 50%;
+  */
+}
+
+/*
+.navbar_links:hover {
+  background-color: #0066ff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+*/
+
+.navbar_links:active {
+  background-color: #e3eaa7;
+  top: 2;
+}
+*/
+
+
+/* Caleb, this is where you edit the captions for the slides in the home menu. Happy Coding :) */
+.carousel-caption {
+  background-color: #b3f0ff;
+  border: 3px solid gray;
+  color: red;
+  opacity: 0.7;
+}
+
+.carousel-caption h5 p {
+  color: yellow;
+  font-weight: bold;
+} 
+
+/* Caleb, this is where you edit the captions for the slides in the home menu (Ends). Happy Coding :) */
+.homeInformation {
+  
+}
+
+
+.carousel-inner {
+  width: 90%;
+  height: 25%;
+  margin: 0 auto;
+}
+
+.quote {
+  margin: 30px;
+  text-align: center;
+}
+
+article {
+  border: 5px groove #bfbfbf;
+  padding: 10px;
+  margin: auto;
+  background-color: rgb(237, 222, 156);
+}
+
+.login_page {
+  background-color: rgb(237, 222, 156);
+  border: 5px groove #bfbfbf;
+  box-shadow: 5px 5px 5px 5px gray;
+  padding: 10px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+footer h5 {
+  text-align: right;
+  color: black;
+}
+
+footer {
+  background-color: #d5e1df;
+  padding: 50px;
+}
+
+footer p {
+  position: absolute;
+  top: 400;
+  color: black;
+}
+
+footer p:hover {
+  color: dodgerblue;
+}
+
+button {
+  margin-top: 35px;
+  
+}
+
+#nancy {
+  width: 30%;
+}
+      
+/* Project Stylesheets */
+.projectIntro {
+  color: white;
+}
+
+
+
+
+/* Roster Stylesheets */
+
+
+/*This is the start of the styling for the new format I "found"*/
+#slider {
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  padding: 20px 0 20px 0;
+  position: relative;
+}
+
+#slider:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit- linear-gradient(to left, #8b86a3,);
+  opacity: 0.8;
+}
+#slider .block {
+  color: #E3E3E4;
+}
+#slider .block h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  padding-bottom: 45px;
+}
+#slider .block p {
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.homeSection {
+  text-align: center;
+}
+/*This is the end of the styling for the new format I "found"*/
+
+
+/* Login tab style section */
+.loginIntro {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.login_section {
+  background-color: #cccccc;
+}
+
+.input_section {
+  background-color: #cccccc;
+  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  margin-bottom: 20px;
+}
+
+.infoInput {
+  margin-left: 15px;
+}
+
+.loginButton {
+  padding: 5px;
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: #009900;
+  border-radius: 15%;
+}
+
+.loginButton:hover {
+  background-color: #ffff99;
+  color: black;
+}
+
+.loginButton.active {
+  background-color: #ffff80;
+  color: black;
+}
+
+.cancelButton {
+  padding: 5px;
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: #990000;
+  border-radius: 15%;
+}
+
+.cancelButton:hover {
+  background-color: #ff0000;
+  color: black;
+}
+
+.cancelButton:active {
+  background-color: #ff0000;
+}
+
+.rememberMe {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.loginBottom {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  margin: 20px;
+}
+
+form {
+  border: 1px solid;
+  padding-top: 15px;
+}
+
+b {
+  color: black;
+  margin-right: 10px;
+}
+
+
+/* Create an account */
+.signUpSection {
+  color: black;
+  padding: 10px 10px 0px 10px;
+}
+
+.createAccountIntro /* with login */{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.signUpForm {
+  background-color: #cccccc;
+  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  margin-bottom: 20px;
+}
+
+.signUpButton {
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #009900;
+  border-radius: 15%;
+}
+
+.signUpButton:hover {
+  background-color: #ffff99;
+  color: black;
+}
+
+.signUpButton:active {
+  background-color: #ffff80;
+  color: black;
+}
+
+.cancelCrteAcctbtn {
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #990000;
+  border-radius: 15%;
+}
+
+.cancelCrteAcctbtn:hover {
+  background-color: #ff0000;
+  color: black;
+}
+
+.cancelCrteAcctbtn:active {
+  background-color: #ff0000;
+}
+
+.termsPolicy {
+  font-size: 20px;
+}
