@@ -48,12 +48,12 @@ h1 {
   padding-bottom: 30px;
   font-size: 80px;
   color: white;
-  transition: color 2s;
+  transition: color 0.5s;
   text-shadow: rgb(71, 71, 71) 3px 5px 2px;
 }
 
 h1:hover {
-  color: #e3eaa7;
+  color: #a3a375;
 }
 
 
@@ -149,17 +149,24 @@ li a {
 */
 
 .navSection {
-  background-color: #333;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .navbar_links {
     float: left;
-    color: #f2f2f2;
+    color: white;
+    background-color: green;
     text-align: center;
-    padding: 14px 16px;
+    text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+    padding: 18px 18px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 30px;
+    font-family: 'Just Another Hand', cursive;
+    width: 50%;
+    min-height: 100px;
+    border: 2px solid gray;
+    transition: background-color 0.5s, color 0.5s;
+    
   /*
   color: white;
   background-color: #009900;
@@ -182,17 +189,17 @@ li a {
   */
 }
 
-/*
+
 .navbar_links:hover {
-  background-color: #0066ff;
+    background-color: #004d1a;
     color: white;
     text-align: center;
     text-decoration: none;
 }
-*/
 
 .navbar_links:active {
   background-color: #e3eaa7;
+  color: white;
   top: 2;
 }
 */
