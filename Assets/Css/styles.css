@@ -230,6 +230,14 @@ li a {
   margin: 0 auto;
 }
 
+.carousel-item {
+  border: 5px solid gray;
+  -webkit-box-shadow: 7px 9px 8px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 9px 8px -5px rgba(0,0,0,0.75);
+	box-shadow: 7px 9px 8px -5px rgba(0,0,0,0.75);
+	margin: auto;
+}
+
 .quote {
   margin: 30px;
   text-align: center;
@@ -255,19 +263,23 @@ article {
 }
 
 footer h5 {
-  text-align: right;
+  text-align: center;
   color: black;
 }
 
 footer {
   background-color: #d5e1df;
   padding: 50px;
+  width: 100%;
 }
 
 footer p {
-  position: absolute;
-  top: 400;
+ /* position: absolute; */
   color: black;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  /* float: left; */
 }
 
 footer p:hover {
@@ -284,8 +296,15 @@ button {
 }
       
 /* Project Stylesheets */
-.projectIntro {
-  color: white;
+.projectContainer {
+  border: 5px outset white;
+  background-color: rgba(0, 128, 0, 0.7);
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 60%;
+  margin: auto;
+  height: 800px;
 }
 
 
