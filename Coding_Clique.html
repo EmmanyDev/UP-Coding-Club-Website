@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>UPREP Coding Club</title>
+      <!--This is code for Styling -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">                
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+     <link rel = 'stylesheet' href = './Assets/Css/styles.css'></link>
+<!--This code is for the Html-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!--This code is for our database-->
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+    apiKey: "AIzaSyBggwMhRgwlz_D2BpjzhQnIU9VgOzSxenw",
+    authDomain: "coding-club-website.firebaseapp.com",
+    databaseURL: "https://coding-club-website.firebaseio.com",
+    projectId: "coding-club-website",
+    storageBucket: "coding-club-website.appspot.com",
+    messagingSenderId: "680951107126"
+    };
+    firebase.initializeApp(config);
+  </script>
+  </head>
+  
+  <body>
+     
+     <!--May use container, may not-->
+      <div class="container">
+      
+    <!--Header (Website Title)-->
+
+    <header>
+      <h1>Clique</h1>
+    </header>
+
+    <ul class= "navSection">
+  <li><a class="navbar_links" href="./Assets/index.html">Home</a></li>
+  <li><a class="navbar_links" href="./Updates.html">Sessions</a></li>
+  <li><a class="navbar_links" href="./Projects.html">Project</a></li>
+  <li><a class="navbar_links" href="./Coding_Clique.html">Clique</a></li>
+  <!--<li><a class="navbar_links" href="../Roster.html">Roster</a></li>-->
+  <!--<li><a class="navbar_links" href="../Subsites/Create an Account.html">Create an Account</a></li>-->
+  <!--<li><a class="navbar_links" href="../Subsites/Login.html">Login</a></li>-->
+</ul>
+
+<br>
+
+
+<ul class= "navSection">
+  <center>
+  <li><a class="navbar_links"  href="mailto:calebianasks@gmail.com">Email Caleb</a></li>
+  </center>
+  </ul>
+
+
+    <!--Header ends-->
+    <section id="slider">
+            <div class="block">
+                
+                <h1 class="animated fadeInUp" align="middle">
+                  "For any Questions click the Email Caleb Button"
+                </h1>
+            
+                <br>
+              
+               <h1 class="animated fadeInUp" align="middle">
+                  "Coding Club Sessions"
+                </h1>
+                
+                <br>
+                
+                <!--<div align="center">-->
+                <!--    <p style= "text-align:center;">Coding Clique Session 1 - The Return to Form</p>-->
+                <!--    <p style= "text-align:center;">3/15/19</p>-->
+                
+                
+                <!--<div class="embed-responsive embed-responsive-4by3">-->
+                <!--<iframe class="embed-responsive-item" -->
+                <!--src="https://www.youtube.com/embed/Ud4HuAzHEUc" -->
+                <!--allowfullscreen>-->
+                <!-- </iframe>-->
+                <!-- </div>-->
+                <!-- <p style="font-size:20px">To those who are interstead in coding or just returning to increse their coding knowledge this site is back baby so if you're new or if you forgot above this commit is the weekly challenge. If you complete the challage and share your project with me I'll display them on the website. Cool Right? Anyway Happy Coding my Cool Coding Cats.</p><p style="font-size:20px">-Caleb Aguirre-Leon</p>-->
+                <!--</div>-->
+                
+                <!--<br>-->
+                <!--<br>-->
+                <!--<br>-->
+                <!--<br>-->
+                
+                <div align="center">
+                    <p style= "text-align:center;">Coding Clique Session 1 - The Return to Form</p>
+                    <p style= "text-align:center;">3/15/19</p>
+                
+                
+                <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" 
+                src="https://www.youtube.com/embed/3JluqTojuME" 
+                allowfullscreen>
+                 </iframe>
+                 </div>
+                 <p style="font-size:20px">To those who are interstead in coding or just returning to increse their coding knowledge this site is back baby so if you're new or if you forgot above this commit is the weekly challenge. If you complete the challage and share your project with me I'll display them on the website. Cool Right? Anyway Happy Coding my Cool Coding Cats.</p><p style="font-size:20px">-Caleb Aguirre-Leon</p>
+                </div>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+                
+    </section>
+    
+    
+    
+    
+    
+  <!--Location of SlideShow-->
+  
+
+
+
+    <!--Code For Pictures-->
+ 
+  
+ <!--End of SlideShow-->
+ 
+  <!--Quotes-->
+  <!--<p class="quote"><em>We should put real quotes here<br />(Insert Source)</em></p>-->
+  <!--<p class="quote"><em>Mr. Siegel likes many things, among them are respecting women, coding, and Cats; the last one is why he is a coding teacher. Cool Right?<br />-Caleb Aguirre-Leon</em></p>-->
+  <!--<p class="quote"><em>Everytime I sit in front of a computer, I ponder to myself the possible applications I can make with the willingness I have to learn and the love I have for what I do<br />-Emmanuel Amoh</em></p>-->
+  <!--Quotes-->
+  
+  <!--Article/information (This includes all the parts included in the draft -->
+    
+  
+  <!--Footer/bottom part of webpage-->
+    <footer>
+      <h5 style="text-align:left;"><em>Web Designer Emmanuel Amoh</em></h5>
+      <h5 style="text-align:left;"><em>Programmer Caleb Aguirre-Leon</em></h5>
+      </footer>
+    <!--Footer ends-->
+  
+  
+  
+  </body>
+  <script src = '../script.js'></script>
+</html>
