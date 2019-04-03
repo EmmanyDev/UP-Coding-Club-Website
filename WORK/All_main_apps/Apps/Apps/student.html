@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+  <head>
+    
+    <script src="./CodingCats/WORK/css/agency.css"></script>
+    <script src="./CodingCats/WORK/css/agency.min.css"></script>
+
+
+
+   <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="WORK/js/agency.min.js"></script>
+    <!--Bootstrap core CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Bootstrap core JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Custom fonts for this template -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+   
+    
+    <script src = 'gulpfile.js'></script>
+    
+    <style type="text/css">
+        
+        #but img{
+            
+            max-width:350px;
+            border:3px solid #fed136;
+            border-radius:10px; 
+        }
+        
+        #but img:hover{
+            
+            border:3px solid #12e219;
+        }
+        
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>App for Students in Help</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCo5dXySV-b-0R46PGNilp7OVBHB8T_3ow",
+        authDomain: "help-que-b1c02.firebaseapp.com",
+        databaseURL: "https://help-que-b1c02.firebaseio.com",
+        projectId: "help-que-b1c02",
+        storageBucket: "help-que-b1c02.appspot.com",
+        messagingSenderId: "968424131307"
+      };
+      firebase.initializeApp(config);
+    </script>
+        
+    <!--<script src = 'gulpfile.js'></script>-->
+  </head>
+
+  <body id="body">
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-dark bg-dark" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Help Queue</a>
+        <div class="reset">
+            <a id = 'userEmail' class="navbar-brand js-scroll-trigger" href="./index.html"></a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto"> </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <h1 id = 'teacher' style = 'margin-top:50px'>Welcome </h1>
+        
+        <div class="intro-text">
+          <div class="intro-heading text-uppercase">Ask!</div>
+            <div id="but">
+              <a id='studentHelp' onclick='raiseHand()'><img src="https://sosafecm3.files.wordpress.com/2014/05/button-get-help-red.png"></a>
+              
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+              
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Teacher notified!</p>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+            
+   
+    <!--<script src="student.js"></script>-->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+  <script src="teacher.js"></script>
+  <script>
+    function dataDismiss(){
+      $('#popupDelete').close()
+    }
+  </script>
+  
+</html>

@@ -1,0 +1,18 @@
+
+  
+  
+Run
+Run Config Name
+Command:
+app/index.html
+Runner: Apache httpd (PHP, HTML)
+CWD
+ENV
+  
+Run
+Run Config Name
+Command:
+WORK/index.html
+Runner: Apache httpd (PHP, HTML)
+CWD
+ENV
