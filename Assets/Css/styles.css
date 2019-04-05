@@ -51,6 +51,8 @@ h1 {
   color: white;
   transition: color 0.5s;
   text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+  width: 50;
+  height: 50;
 }
 
 h1:hover {
