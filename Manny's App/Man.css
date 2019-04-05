@@ -1,0 +1,50 @@
+body {
+	background-color: #00bfff;
+}
+
+.container {
+	width: 80%;
+	padding: 20px;
+	border: 3px solid;
+	border-radius: 15px;
+	-webkit-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.shrink {
+	width: 60%;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+form {
+	
+}
+
+#button {
+	padding: 10px;
+	color: black;
+	font-size: 20px;
+	background-color: #33ccff;
+	font-weight: bold;
+	border: 1px solid;
+	border-radius: 10px;
+	-webkit-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+}
+
+#button:active {
+	position: relative;
+	top: 3;
+}
